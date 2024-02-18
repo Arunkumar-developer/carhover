@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first:hover~.maruthi{
+            color:rgb(62, 197, 50);
+            display: inline;
+            margin-bottom:10px;
+        }
+        .maruthi{
+            display: none;
+            padding:  50px;
+            
+        }
+        .second:active~.thar{
+            color:rgb(58, 28, 227);
+            display: inline;
+        }
+        .thar{
+            display: none;
+            margin-bottom: 30px;
+            padding:  100px;
+            
+        }
+        .third:active~.ford{
+            color:rgb(243, 19, 19);
+            display: inline;
+        }
+        .ford{
+            display: none;
+            margin-bottom: 30px;
+            padding:  100px;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="first"> 
+    <button style="margin-bottom: 20px; background-color: rgb(174, 174, 228);">Maruthi Car Models</button>
+    </div>
+    <ul class="maruthi">
+        <li>1.Maruti Fronx</li>
+        <li>2.Maruti Brezza</li>
+        <li>3.Maruti Grand Vitara</li>
+        <li>4.Maruti Ertiga</li>
+        <li>5.Maruti Swift</li>
+    </ul>
+    <div class="second"> 
+        <button style="margin-bottom: 20px; background-color: rgb(37, 237, 107);">Thar Car Models</button>
+        </div>
+        <ul type="circle" class="thar">
+            <li>1.Thar Armada</li>
+            <li>2.Thar Centurion</li>
+            <li>3.Thar Cult</li>
+            <li>4.Thar Roxx</li>
+            <li>5.Thar Savannah</li>
+        </ul>
+        <div class="third"> 
+            <button style="margin-bottom: 20px; background-color: rgb(236, 127, 155);">Ford Car Models</button>
+            </div>
+            <ul class="ford">
+                <li>1.Ford EcoSport</li>
+                <li>2.Ford Endeavour</li>
+                <li>3.Ford Figo</li>
+                <li>4.Ford Aspire</li>
+                <li>5.Ford Freestyle</li>
+            </ul>
+
+</body>
+</html>
